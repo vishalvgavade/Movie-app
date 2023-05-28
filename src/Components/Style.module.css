@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    display: grid;
+    gap: 3 rem;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 140 rem;
+    margin: auto;
+    padding: 3rem;
+}
+.card{
+width: 25rem;
+max-width: 30rem;
+min-height: 30rem;
+border-radius: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+img{
+    min-width:10rem;
+    max-height: 30rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    transition: all 0.3s linear;
+
+}
+.searchSection{
+margin: auto;
+text-align: center;
+margin: 4rem 0;
+}
+h2{
+    font-size: 2rem;
+}
+input{
+    width: 30rem;
+    border-radius: 100px;
+    border: none;
+    border: 1px solid;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    outline: none;
+    margin-top: 2rem;
+}
